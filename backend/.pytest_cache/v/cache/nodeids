@@ -1,0 +1,10 @@
+[
+  "tests/test_api.py::test_eeg_channels",
+  "tests/test_api.py::test_ml_models_info",
+  "tests/test_api.py::test_robot_state_and_poses",
+  "tests/test_api.py::test_root_and_health",
+  "tests/test_filters.py::test_butterworth_bandpass",
+  "tests/test_filters.py::test_signal_quality_metric",
+  "tests/test_safety.py::test_confidence_threshold_rejection",
+  "tests/test_safety.py::test_emergency_stop_priority"
+]
