@@ -1,0 +1,35 @@
+{
+  "session_id": "NEURO-2026-004",
+  "user_id": "researcher",
+  "label": "CALIBRATION",
+  "mode": "Calibrated",
+  "duration_seconds": 252.0,
+  "samples_count": 63000,
+  "sampling_rate_hz": 250,
+  "channels": [
+    "Fp1",
+    "Fp2",
+    "C3",
+    "C4",
+    "P3",
+    "P4",
+    "O1",
+    "O2"
+  ],
+  "signal_quality": "98.5%",
+  "snr_db": 19.8,
+  "created_at": "2026-10-01T14:30:00Z",
+  "description": "9-step subject calibration protocol trial (REST -> LEFT -> RIGHT -> GRIP -> RELEASE -> STOP).",
+  "file_csv": "NEURO-2026-004.csv",
+  "file_size_bytes": 240277,
+  "impedance_kohm": {
+    "Fp1": 2.4,
+    "Fp2": 2.6,
+    "C3": 1.8,
+    "C4": 1.9,
+    "P3": 2.1,
+    "P4": 2.2,
+    "O1": 2.8,
+    "O2": 2.7
+  }
+}

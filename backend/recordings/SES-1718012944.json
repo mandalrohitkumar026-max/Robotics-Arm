@@ -1,0 +1,35 @@
+{
+  "session_id": "SES-1718012944",
+  "user_id": "researcher",
+  "label": "GRIP",
+  "mode": "Recorded",
+  "duration_seconds": 45.0,
+  "samples_count": 11250,
+  "sampling_rate_hz": 250,
+  "channels": [
+    "Fp1",
+    "Fp2",
+    "C3",
+    "C4",
+    "P3",
+    "P4",
+    "O1",
+    "O2"
+  ],
+  "signal_quality": "GOOD (94.7%)",
+  "snr_db": 17.8,
+  "created_at": "2026-09-29T10:15:30Z",
+  "description": "Bilateral sensorimotor beta burst trials for robotic end-effector clamp.",
+  "file_csv": "SES-1718012944.csv",
+  "file_size_bytes": 190149,
+  "impedance_kohm": {
+    "Fp1": 2.4,
+    "Fp2": 2.6,
+    "C3": 1.8,
+    "C4": 1.9,
+    "P3": 2.1,
+    "P4": 2.2,
+    "O1": 2.8,
+    "O2": 2.7
+  }
+}

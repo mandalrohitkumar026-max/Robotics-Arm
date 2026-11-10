@@ -1,0 +1,35 @@
+{
+  "session_id": "NEURO-2026-001",
+  "user_id": "researcher",
+  "label": "REST",
+  "mode": "Simulation",
+  "duration_seconds": 525.0,
+  "samples_count": 131250,
+  "sampling_rate_hz": 250,
+  "channels": [
+    "Fp1",
+    "Fp2",
+    "C3",
+    "C4",
+    "P3",
+    "P4",
+    "O1",
+    "O2"
+  ],
+  "signal_quality": "94.0%",
+  "snr_db": 16.5,
+  "created_at": "2026-09-29T09:30:00Z",
+  "description": "Resting-state eyes-open baseline calibration with frontopolar blink artifacts.",
+  "file_csv": "NEURO-2026-001.csv",
+  "file_size_bytes": 153516,
+  "impedance_kohm": {
+    "Fp1": 2.4,
+    "Fp2": 2.6,
+    "C3": 1.8,
+    "C4": 1.9,
+    "P3": 2.1,
+    "P4": 2.2,
+    "O1": 2.8,
+    "O2": 2.7
+  }
+}

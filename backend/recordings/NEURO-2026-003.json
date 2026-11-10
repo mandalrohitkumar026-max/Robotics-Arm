@@ -1,0 +1,35 @@
+{
+  "session_id": "NEURO-2026-003",
+  "user_id": "researcher",
+  "label": "FORWARD",
+  "mode": "Recorded",
+  "duration_seconds": 375.0,
+  "samples_count": 93750,
+  "sampling_rate_hz": 250,
+  "channels": [
+    "Fp1",
+    "Fp2",
+    "C3",
+    "C4",
+    "P3",
+    "P4",
+    "O1",
+    "O2"
+  ],
+  "signal_quality": "96.2%",
+  "snr_db": 18.1,
+  "created_at": "2026-10-01T08:15:00Z",
+  "description": "Frontocentral beta modulation trials for robotic arm extension.",
+  "file_csv": "NEURO-2026-003.csv",
+  "file_size_bytes": 155138,
+  "impedance_kohm": {
+    "Fp1": 2.4,
+    "Fp2": 2.6,
+    "C3": 1.8,
+    "C4": 1.9,
+    "P3": 2.1,
+    "P4": 2.2,
+    "O1": 2.8,
+    "O2": 2.7
+  }
+}
