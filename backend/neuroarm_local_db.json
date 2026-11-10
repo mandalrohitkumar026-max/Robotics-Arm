@@ -1,0 +1,81 @@
+{
+  "users": {
+    "619de9d0-ff69-457c-b645-ec069e2e25b0": {
+      "id": "619de9d0-ff69-457c-b645-ec069e2e25b0",
+      "username": "researcher",
+      "email": "lab@neuroarm.ai",
+      "role": "lead_researcher",
+      "hashed_password": "a5a78798baa312cffec3beb63a431e1c$9531961dfa3ab211ceadba5410d622cecb593afe71cf8bc527b322699002d1f4",
+      "created_at": "2026-10-01T10:53:20.300396+00:00"
+    }
+  },
+  "sessions": {
+    "591bd5be-faaa-4f76-8e5b-9137ecb252c3": {
+      "session_id": "SES-1718012001",
+      "user_id": "researcher",
+      "label": "LEFT",
+      "duration_seconds": 60.5,
+      "samples_count": 15125,
+      "signal_quality": "OPTIMAL (98.2%)",
+      "created_at": "2026-09-28T14:20:00Z",
+      "id": "591bd5be-faaa-4f76-8e5b-9137ecb252c3"
+    },
+    "a0027149-53d5-4fbb-aad5-d66ac32b2844": {
+      "session_id": "SES-1718012944",
+      "user_id": "researcher",
+      "label": "GRIP",
+      "duration_seconds": 45.0,
+      "samples_count": 11250,
+      "signal_quality": "GOOD (94.7%)",
+      "created_at": "2026-09-29T10:15:30Z",
+      "id": "a0027149-53d5-4fbb-aad5-d66ac32b2844"
+    }
+  },
+  "recordings": {},
+  "models": {},
+  "mappings": {
+    "m1": {
+      "id": "m1",
+      "trigger": "Single Blink",
+      "command": "SELECT",
+      "enabled": true
+    },
+    "m2": {
+      "id": "m2",
+      "trigger": "Double Blink",
+      "command": "GRIP",
+      "enabled": true
+    },
+    "m3": {
+      "id": "m3",
+      "trigger": "LEFT INTENT",
+      "command": "ROTATE LEFT",
+      "enabled": true
+    },
+    "m4": {
+      "id": "m4",
+      "trigger": "RIGHT INTENT",
+      "command": "ROTATE RIGHT",
+      "enabled": true
+    },
+    "m5": {
+      "id": "m5",
+      "trigger": "FORWARD INTENT",
+      "command": "MOVE FORWARD",
+      "enabled": true
+    },
+    "m6": {
+      "id": "m6",
+      "trigger": "BACKWARD INTENT",
+      "command": "MOVE BACKWARD",
+      "enabled": true
+    },
+    "m7": {
+      "id": "m7",
+      "trigger": "STOP INTENT",
+      "command": "EMERGENCY STOP",
+      "enabled": true
+    }
+  },
+  "logs": {}
+}
